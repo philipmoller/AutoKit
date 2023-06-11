@@ -23,7 +23,8 @@ Please ensure that you have the necessary hardware components before proceeding 
 To install and set up the AutoKit system, follow these steps:
 
 1. **Clone the Repository**: Start by cloning the AutoKit repository from GitHub to your local machine.
-git clone https://github.com/your-username/AutoKit.git
+´´´shell
+git clone https://github.com/philipmoller/AutoKit.git
 
 2. **Install Dependencies**: Navigate to the cloned repository and install the required dependencies using the package manager of your choice. For example, if you are using Python and pip, run the following command:
 pip install -r requirements.txt
