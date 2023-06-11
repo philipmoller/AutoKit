@@ -23,14 +23,19 @@ Please ensure that you have the necessary hardware components before proceeding 
 To install and set up the AutoKit system, follow these steps:
 
 1. **Clone the Repository**: Start by cloning the AutoKit repository from GitHub to your local machine.
-´´´shell
+```console
 git clone https://github.com/philipmoller/AutoKit.git
+```
 
 2. **Install Dependencies**: Navigate to the cloned repository and install the required dependencies using the package manager of your choice. For example, if you are using Python and pip, run the following command:
+```console
 pip install -r requirements.txt
+```
 
 3. **Run AutoKit**: Once the dependencies are installed and the hardware is set up, you can run the AutoKit system. Execute the main script, typically named `autokit.py`, to start the application.
-python autokit.py
+```console
+python3 kitting.py <IP OF YOUR SPOT ROBOT>
+```
 
 4. **Additional Configuration**: If necessary, you can modify e.g., ArUco dictionaries or placing positions on the trolley to customize the behavior of the AutoKit system. Refer to the documentation or comments within the codebase for guidance on configuration options.
 
